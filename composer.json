@@ -1,0 +1,26 @@
+{
+    "name": "xinix-technology/bono-jacket",
+    "description": "Bono Jacket",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Xinix Technology",
+            "email": "hello@xinix.co.id"
+        }
+    ],
+    "require": {
+        "xinix-technology/bono": "~1.0.0",
+        "xinix-technology/norm": "~1.0.0",
+        "xinix-technology/migrate": "~0.1.0",
+        "xinix-technology/bono-auth": "~1.0.0",
+        "xinix-technology/bono-blade": "~1.0.0",
+        "phpoffice/phpexcel": "~1.8",
+        "xinix-technology/jacket": "~0.0.6",
+        "reekoheek/norm-fdb": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "src/"
+        }
+    }
+}

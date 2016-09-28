@@ -1,0 +1,806 @@
+.box{
+    /*padding: 20px;
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #000;*/
+}
+.red{ background: #ff0000; }
+.green{ /*background: #00ff00;*/ }
+.blue{ background: #0000ff; }
+
+input[type=text].text {
+  line-height: 22px;
+}
+form label {margin: 0}
+.read .row {margin: 0 auto}
+.read .row .row {padding-bottom: 0}
+
+/*space*/
+.space {
+  padding-right: 5px;
+}
+
+/*button error delete*/
+.button.error.popup.noclose.modal.buttonSurvey {
+  border: none;
+  padding: 3px 12px;
+
+}
+
+/*button error delete schedule*/
+.button.error.popup.noclose.modal.buttonSchedule {
+  border: none;
+  padding: 0px 0px;
+  background: #FFFFFF;
+}
+
+/*button delete asset*/
+.button.error.popup.noclose.modal.buttonAsset {
+  border: none;
+  padding: 0px 0px 0px 4px;
+  background: #FFFFFF;
+  color: #416B9B;
+}
+
+/*button schedule*/
+.button.error.hover.schedule {
+  background: #fff;
+  color: #EC6969;
+}
+
+.button.error.popup.noclose.modal.buttonScheduleEdit {
+  border: none;
+  padding: 0px 0px;
+  margin-right: 1px;
+}
+
+/*row */
+.row .span-4 {
+    display: block;
+    /*width: 28.33333%;*/
+}
+
+fieldset .error span {
+  position: absolute;
+    margin-top: -35px;
+    margin-left: 4px;
+    font-size: 1.5em;
+}
+
+.more-choice-field .error span{
+  position: relative;
+  margin-top: 0;
+    margin-left: 0;
+  font-size: 1.5em;
+}
+
+
+/*styling page login*/
+.login-area {display: table; width: 100%; height: 100%; position: absolute;}
+.login-area .login-container {display: table-cell; vertical-align: middle;}
+#login {display: table; margin: 0 auto}
+#login .button-area {margin: 0 auto; display: table;}
+#login img {height: 160px; width: auto;}
+
+/*custom image asset*/
+span.field img {
+    width: 89px;
+    padding-left: 38px;
+}
+
+/*row read schedule*/
+.rowschedule {
+  padding-left: 74px;
+}
+
+/*row search schedule */
+.rowsearchSchedule {
+  padding-top:12px;
+  margin-left:-8px;
+}
+
+/*button solid search schedule  */
+.button.solid.schedule {
+  height:36px;
+  width:124px;
+}
+
+fieldset {
+    min-width: 100%;
+    border-color: #c6d5e7;
+    background: #fcfdfe;
+    margin: 36px 0;
+    padding: 24px 20px;
+    position: relative;
+}
+fieldset .legend {
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 1.1em;
+    box-shadow: none;
+    width: 360px;
+    display: block;
+    margin-top: -38px;
+    background: #F3A22B;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+fieldset .legend::-webkit-input-placeholder { color: #fff; }
+fieldset .legend:-moz-placeholder { color: #fff; }
+fieldset .legend::-moz-placeholder { color: #fff; }
+fieldset .legend:-ms-input-placeholder { color: #fff; }
+
+fieldset.event .close {
+    width: auto;
+    margin: 0;
+    font-size: 1.8em;
+    position: absolute;
+    top: -14px;
+    bottom: initial;
+    right: -12px;
+    left: initial;
+}
+fieldset:last-child {
+    margin-bottom: 10px;
+}
+.tableDiv .tableAction a {
+    font-size: 1.2em;
+    position: absolute;
+    right: 31%;
+    margin: 0;
+    width: auto;
+    bottom: 30px;
+    margin-top: 45px;
+}
+
+.sidebar .group-list {
+    background: #EFEFEF;
+    margin: 0;
+    padding: 5px 0 5px 16px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.3pt;
+}
+
+.readSchedule {
+    padding-bottom: 16px !important;
+    font-size: 14px;
+}
+
+#search .input-search {
+	margin-bottom: 12px;
+}
+.dropdown-search {
+	padding-right: 20px;
+}
+.dropdown-search .dropdown-button {
+	position: absolute;
+    top: 0px;
+    right: 0;
+    left: initial;
+    bottom: initial;
+    line-height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 23px;
+    color: #416B9B;
+    text-align: right;
+    cursor: pointer;
+    background-image: url('../img/filter.png');
+    background-repeat: no-repeat;
+    background-position: -4px 0;
+}
+nav.actions {padding-left: 24px}
+.dropdown-search .dropdown-button i {
+	margin: 0;
+	width: auto;
+  font-size: 20px
+}
+.advanced-area {
+    display: none;
+	  background: #F8FCFF;
+    border: 1px solid #c6d5e7;
+    padding: 10px 20px 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    top: 1px;
+}
+.advanced-area form {
+	  margin: 0;
+    padding: 0;
+}
+.advanced-area .button-area {
+    margin-top: 20px;
+}
+
+.listText {
+	padding: 0;
+	list-style: none;
+}
+
+#popupOverflow #popupContent .content .listText li {
+	padding: 0;
+	margin: 0;
+}
+
+
+#popupOverflow #popupContent .content .scroll {
+	height: 350px;
+  overflow-y: scroll;
+}
+
+.success.solid.report{
+  width:124px;
+  background: #718F47;
+
+}
+
+.success.solid.report a{
+  color:white;
+
+}
+
+.success.solid.report a i{
+  font-size:15px;
+}
+
+.success.solid.assets{
+  width:124px;
+  background: #718F47;
+  top: -2px;
+}
+
+/*========================== styling page calender ================================*/
+table.calender tbody tr td {position: relative;}
+table.calender tbody tr td p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+table.calender tbody tr:hover td,
+table.calender tbody tr td {
+  border: 1px solid rgba(204, 204, 204, 0.32);
+  background: inherit;
+}
+
+table.calender tbody tr td div.value-calendar {
+  height: 90px;
+  overflow: hidden;
+  text-align: right;
+}
+table.calender tbody tr td div.value-calendar p {
+  text-align: left;
+  margin-top: 0;
+  font-size: 11px;
+  letter-spacing: .6px;
+}
+table.calender tbody tr:first-child {
+  background-color: #DDE8F3;
+  font-weight: 700;
+}
+table.calender tbody tr:first-child td {
+  text-align: right;
+}
+table.calender {margin-bottom: 100px;}
+a.more {
+  position: absolute;
+  bottom: 2px;
+  left: 16px;
+  right: 16px;
+  font-size: 11px;
+  letter-spacing: .6px;
+  color: #6B6969;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/*=========================== styling page asset ====================================*/
+
+.change-img #upload-file-picture {
+  margin-top: inherit;
+  right: inherit;
+  margin-right: inherit;
+  left: 34px;
+  top: 18px;
+}
+.change-img {margin-right: 20px}
+#barcode .row {padding: 36px 10px 37px;}
+.change-img fieldset, #barcode fieldset {padding: 10px;}
+.change-img #upload-file-picture.xn-upload:before {content: "🌄"; font-size: 4em; color: #ccc;}
+.change-img.update-asset #upload-file-picture.xn-upload:before {display: none; content: "\270e"}
+.change-img.update-asset .form-img:hover #upload-file-picture.xn-upload:before {display: block;}
+.change-img {
+  width: auto;
+  /*max-width: 148px;*/
+  /*min-width: 148px;*/
+}
+#img-asset .form-img {  background-position: center; background-size: cover; background-repeat: no-repeat; cursor: pointer;}
+.form-img {width: 100%; position: relative; text-align: center; height: 120px; width: 120px; }
+.form-img .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.form-img:hover .overlay {
+  background: rgba(33, 33, 33, .45);
+}
+.form-img img {
+  height: auto;
+  width: 126px;
+  min-width: 126px;
+  max-width: 126px;
+  padding-bottom: 10px;
+}
+.form-img input {
+  padding: inherit!important;
+  position: absolute;
+  bottom: -10px;
+  border: 0;
+  padding-right: inherit;
+  background:transparent;
+  text-align: center;
+}
+.read .row .change-img .row {padding: 0;}
+fieldset.form-select-img {margin: 0; border: 2px dashed #ccc;}
+fieldset.form-select-img legend {color: #ccc; margin: 0 auto}
+fieldset.form-select-img .form-img {width: 100%}
+.change-img fieldset.form-select-img #upload-file-picture {left: calc(50% - 33px)}
+
+#barcode {width: auto;}
+#barcode .row {text-align: center;}
+.img-update img {display: none}
+.form-img.img-update {height: 100px; margin-bottom: 20px}
+.form-img.img-update input {    bottom: -26px;}
+
+/*untuk table yg ada iconnya*/
+table.table-action .xn:first-child {
+  margin-right: 0
+}
+
+body.has-sidebar #contextual {padding: 0 32px;}
+.add-choice.button.addchoice {
+  position: absolute;
+  bottom: 25px;
+  right: 105px;
+  line-height: 30px;
+  padding: 0 24px;
+}
+fieldset.question {background-color: #eee;}
+.tableCol.span-1 span {line-height: 32px}
+.tableDiv.nested.itenary-time {
+  margin-top: 5px
+}
+/*========================================styling delete========================================*/
+#popupContent .actions {position: inherit;}
+#popupContent .actions li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+#popupContent .actions li:first-child {border-right: 1px solid #ccc;}
+#deleteRecord p {text-align: center; padding: 8px 0;}
+#deleteRecord p.banner {text-align: center; padding: 18px 0;}
+
+/*=====================================styling table scedjule===================================*/
+table.fixed-tail.table-scedjule th:last-child,
+table.fixed-tail.table-scedjule td:last-child {width: 138px}
+table.fixed-tail.table-scedjule th:nth-last-child(2),
+table.fixed-tail.table-scedjule td:nth-last-child(2) {padding-right: 160px}
+
+/*==============================styling view search schedule calender============================*/
+
+.search-area.dropdown-search {
+  padding-left: 14px;
+}
+
+.icn.xn.xn-search {
+  color: #416B9B;
+}
+
+.search-area.dropdown-search .calendar{
+  margin: -34px;
+  padding-left: 64px;
+  width: 598px;
+}
+
+.form-calendar{
+  margin: -34px;
+  padding-left: 64px;
+  width: 598px;
+}
+
+.form-calendar input[type=text].text {
+  border: 0;
+  color: #416B9B;
+  line-height: 130%;
+  box-shadow: none;
+  padding: 7px 12px 2px 6px;
+}
+
+/*=========================style for actual survey==============================*/
+
+.image-thumb img {max-width: 100px}
+
+/*style icon date for dashboard*/
+
+
+.item .calDate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 60px;
+    bottom: initial;
+    border: 1px solid #c6d5e7;
+    padding: 4px;
+    background: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.item .desc{
+  padding-left: 68px;
+
+}
+.item .calDate h6,
+.item .calDate p {
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.5pt;
+    line-height: 100%;
+}
+.item .calDate p {
+    font-size: 0.7em;
+    font-weight: 600;
+}
+.item .calDate p.month {
+    text-transform: uppercase;
+    color: #CF4741;
+}
+.item .calDate p.year {
+    color: #888;
+}
+.item .calDate h6.date {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 2px;
+}
+
+
+
+.read-survey .active span {font-weight: 700;text-align: center;line-height: 1em;text-transform: uppercase;padding: 2px 4px;margin: 0;background: #718F47;border: 1px solid #718F47;color: #fff;-webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;}
+.read-survey .pending span {font-weight: 700;text-align: center;line-height: 1em;text-transform: uppercase;padding: 2px 4px;margin: 0;background: #E1BF32;border: 1px solid #E1BF32;color: #fff;-webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;}
+.read-survey .reject span {font-weight: 700;text-align: center;line-height: 1em;text-transform: uppercase;padding: 2px 4px;margin: 0;background: #CF4741;border: 1px solid #CF4741;color: #fff;-webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;}
+
+/*menu expand and hide*/
+
+
+.menu.expand .xn{
+  /*margin-right: -226px;*/
+  position: absolute;
+    right: 13px;
+}
+
+.range-value.button.rangevalue {
+  position: absolute;
+  bottom: 59px;
+  right: 79px;
+  line-height: 30px;
+  padding: 0 24px;
+}
+
+tr.active td, tr.active td{background-color: #a5bbed!important;}
+tr.draft td{background-color: #ebe99d!important;}
+tr.submited td{background-color: #eb9da0!important;}
+
+/*----------------------------------------------------------------*/
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  height: 2px;
+  width: 19px;
+  background: #FFF;
+  position: absolute;
+  content: '';
+}
+
+#nav-toggle span:before {
+  top: -6px; 
+}
+#nav-toggle span:after {
+  bottom: -6px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+
+#nav-toggle.active span {
+  background-color: transparent;
+}
+
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+/*------------------------------------------------------------------*/
+
+.searchbox{
+    position:relative;
+    min-width:50px;
+    width:0%;
+    height:50px;
+    float:right;
+    
+    
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+.searchbox-input{
+    top:0;
+    right:0;
+    border:0;
+    outline:0;
+    width:100%;
+    height:50px;
+    margin:0;
+    padding:0px 55px 0px 20px;
+    font-size:20px;
+    color:#416B9B;
+}
+.searchbox-input::-webkit-input-placeholder {
+    color: #416B9B;
+}
+.searchbox-input:-moz-placeholder {
+    color: #416B9B;
+}
+.searchbox-input::-moz-placeholder {
+    color: #416B9B;
+}
+.searchbox-input:-ms-input-placeholder {
+    color: #416B9B;
+}
+
+.searchbox-icon{
+   
+    width: 37px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    font-family: verdana;
+    font-size: 21px;
+    right: 0px;
+    padding-right: -18px;
+    color: #416B9B;
+}
+
+.searchbox-open{
+    width:100%;
+}
+
+.fontcolor {
+  color: #fff;
+  font-size: 15px;
+}
+
+.nav.with-icon.background {
+  background:#F44336;
+}
+
+
+.sidebar .nav li a {
+    padding: 8px 24px 8px 0;
+    display: block;
+    color: #465d6f;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+
+.nav-menu .pull-right .user {
+    padding: 38px 0 0 40px!important;
+}
+
+.search-form .form-group {
+      float: right !important;
+      transition: all 0.35s, border-radius 0;
+      width: 32px;
+      height: 32px;
+      background-color: #F95C5C;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+      border-radius: 25px;
+      border: 1px solid #F95C5C;
+    }
+    .search-form .form-group input.form-control {
+      padding-right: 20px;
+      border: 0 none;
+      background: #F44336;
+      box-shadow: none;
+      display: block;
+      color: #fff;
+    }
+
+    .search-form .form-group input.form-control::-webkit-input-placeholder {
+      display: none;
+      color: #fff;
+    }
+    .search-form .form-group input.form-control:-moz-placeholder {
+      /* Firefox 18- */
+      display: none;
+      
+    }
+    .search-form .form-group input.form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      display: none;
+      
+    }
+    .search-form .form-group input.form-control:-ms-input-placeholder {
+      display: none;
+      
+    }
+    .search-form .form-group:hover,
+    .search-form .form-group.hover {
+      width: 140px;
+      border-radius: 4px 25px 25px 4px;
+    }
+    .search-form .form-group span.form-control-feedback {
+      position: absolute;
+      top: -1px;
+      right: -2px;
+      z-index: 2;
+      display: block;
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      text-align: center;
+      color: #3596e0;
+      left: initial;
+      font-size: 14px;
+    }
+
+    .wrapperCustom {
+      padding: 67px 20px;
+    }
+
+    .row.custom {
+      margin-left: 0px;
+    }
+
+    .sub-title.custom {
+      padding-bottom: 12px;
+      color: #150101;
+      font-weight: 500;
+      line-height: 126%;
+      border-bottom: 1px solid #c6d5e7;
+      font-size: 18px;
+    }
+
+    .sub-title.home {
+        padding-bottom: 12px;
+        color: #232323;
+        font-weight: 600;
+        line-height: 130%;
+        border-bottom: 1px solid #c6d5e7;
+        font-size: 12px;
+    }
+
+    .cart {
+      width:110px; 
+      border-radius:48%;
+    }
+
+    .nameKeranjang {
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+
+    .categoryKeranjang {
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .xn.xn-cancel.custom {
+      font-size: 19px;
+      font-family: a;
+      color: #F95C5C;
+    }
+
+    .hargaKeranjang {
+      text-align: center; 
+      margin: 4px 0px 0px -6px;
+      font-weight: bold;
+    }
+
+    .qtyKeranjang {
+      text-align: center; 
+      margin: 4px 0px 0px 5px;
+      font-weight: bold;
+    }
+
+    .totalKeranjang {
+      text-align: center;
+      margin: 4px 0px 0px 5px;
+      color: #416B9B;
+      font-weight: bold;
+    }
+
+    .deleteKeranjang {
+      text-align: center; 
+      margin: 4px 0px 0px 5px;
+    }
+
+    .span-12.custom {
+      margin: 24px 0px 0px;
+    }
+
+    .subtotalKeranjang {
+      font-size: 14px;
+      text-transform: uppercase; 
+      font-weight:bold;
+    }
+
+    .xn.xn-basket.customKeranjang { 
+      color: #416B9B;
+    }
+
+    .lanjutKeranjang {
+      font-size: 12px;
+    }
+
+    .atauKeranjang {
+      color: #A5A5A5; 
+      font-size: 12px;
+    }
+
+    #popupContent .content {
+      /*color: #fff;*/
+
+    }
+
+    .contentPopup {
+      color: #191818; 
+      text-transform: uppercase;
+    }
+
+    .subtotalPopup {
+      text-transform: uppercase; 
+      font-weight:bold;
+    }
+
+    .even.first-child.odd.nostyle {
+      list-style-type: none;
+    }
+
+    .imgBannner {
+      width: 100%;
+      height: 172px;
+      position: relative;
+      top: 49px;
+    }
+
+

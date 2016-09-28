@@ -1,0 +1,37 @@
+{
+    "name": "xinix-technology/norm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ganesha",
+            "email": "reekoheek@gmail.com",
+            "homepage": "http://xinix.co.id",
+            "role": "Developer"
+        },
+        {
+            "name": "Krisan Alfa",
+            "email": "krisan47@gmail.com",
+            "homepage": "https://twitter.com/krisanalfa",
+            "role": "Developer"
+        },
+        {
+            "name": "Aprianto Pramana Putra",
+            "email": "apriantopramanaputra@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "reekoheek/jsonkit": "~0.0.1",
+        "reekoheek/util": "~0.1.2",
+        "ramsey/uuid": "~2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Norm": "src/"
+        }
+    }
+}

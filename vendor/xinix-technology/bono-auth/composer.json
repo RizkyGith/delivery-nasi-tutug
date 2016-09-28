@@ -1,0 +1,20 @@
+{
+    "name": "xinix-technology/bono-auth",
+    "description": "Bono Auth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ganesha",
+            "email": "reekoheek@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.3.*",
+        "guzzle/guzzle": "~3.8.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Xinix\\BonoAuth": "src/"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pants Images</title>
+
+    <link rel="import" href="../pants/pants.html">
+</head>
+<body>
+    <pants-element name="pants-images">
+        <template>
+            <input class="image" name="" value="{{ value }}" type="file" multiple>
+            <a class="select">
+                Select &nbsp;
+                <progress value="0" max="100"></progress>
+                <span class="progress-value">0%</span>
+            </a>
+            <div class="row thumbnails"></div>
+        </template>
+
+        <link rel="stylesheet" href="css/pants-images.css">
+
+        <script type="text/javascript" src="js/pants-images.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                //FIXME Todo: Delete file on directory
+                $('pants-images').on('click', '.thumbnails .thumb .exit', function(){
+                    $('.thumb').remove();
+                });
+            });
+        </script>
+    </pants-element>
+</body>
+</html>

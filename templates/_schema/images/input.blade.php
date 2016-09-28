@@ -1,0 +1,1 @@
+<pants-images name="{{ $self['name'] }}" to="{{ $uploadUrl }}" prefixs="{{ $prefix }}" basebucket="{{ $base_bucket }}" bucket="{{ 'data/asset/images/' }}" />

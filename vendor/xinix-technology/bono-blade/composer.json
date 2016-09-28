@@ -1,0 +1,19 @@
+{
+    "name": "xinix-technology/bono-blade",
+    "description": "Laravel Blade template engine for Bono PHP Framework",
+    "autoload": {
+        "psr-0": {
+            "Xinix\\Blade": "src/"
+        }
+    },
+    "require": {
+        "illuminate/view": "~4.1.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xinix Technology",
+            "email": "hello@xinix.co.id"
+        }
+    ]
+}

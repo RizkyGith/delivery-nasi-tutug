@@ -1,0 +1,24 @@
+{
+    "name": "xinix-technology/jacket",
+    "description": "When Bono gets Naked, but use several T-shirt, all his got is Jacket.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Xinix Technology",
+            "email": "hello@xinix.co.id"
+        }
+    ],
+    "require": {
+        "xinix-technology/blade-theme": "~1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Xinix\\Theme\\Jacket": "src/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "bower install"
+        ]
+    }
+}

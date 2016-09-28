@@ -1,0 +1,28 @@
+{
+  "name": "pants-images",
+  "version": "0.0.4",
+  "authors": [
+    "Apriyanto Pramana Putra <apriantopramanaputra@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pants": "xinix-technology/pants#master"
+  },
+  "homepage": "https://github.com/apriantopramana/pants-images",
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.4",
+    "commit": "f448d70e4828d770e668c0ce4a67208e8b30d440"
+  },
+  "_source": "https://github.com/apriantopramana/pants-images.git",
+  "_target": "0.0.4",
+  "_originalSource": "https://github.com/apriantopramana/pants-images.git"
+}

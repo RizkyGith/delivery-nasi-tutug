@@ -1,0 +1,37 @@
+{
+  "name": "sketch",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xinix-technology/sketch",
+  "authors": [
+    "Dwan <dwan@xinix.co.id>",
+    "Adoel <abdul.rasman@xinix.co.id>",
+    "Ali <muhammad.ali@xinix.co.id>"
+  ],
+  "description": "UI Design Pattern",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "html",
+    "css",
+    "sketc",
+    "ui",
+    "design",
+    "pattern"
+  ],
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jacket-awesome": "~2.0.x",
+    "lato": "~0.3.x",
+    "modernizr": "~2.8.x",
+    "naked-css": "~1.0.x",
+    "normalize.css": "~3.0.x"
+  }
+}

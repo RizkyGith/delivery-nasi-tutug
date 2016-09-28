@@ -1,0 +1,16 @@
+NASI TUTUG ONCOM
+
+- Status Transaksi Pembelian , belum di Update
+- JUMLAH KESELURUHAN + ID USER = KENAPA
+
+Bag Fixing Nasi Tutug Oncom
+
+- Status di keranjang belum 1 jadi 2
+
+- Skeleton.blade.php 
+  Module Pesan Admin => status sementara , masih 1, harus nya status 2
+
+- Pesan/Read Rincian Pembelian
+  Harus nya => status sementara , masih 1, harus nya status 2
+
+- Riwayat Controller harus nya status nya 2

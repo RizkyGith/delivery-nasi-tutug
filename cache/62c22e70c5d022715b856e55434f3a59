@@ -1,0 +1,7 @@
+
+<?php $__env->startSection('has-sidebar'); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('sidebar'); ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('skeleton', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
